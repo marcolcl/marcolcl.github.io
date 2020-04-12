@@ -14,6 +14,8 @@
   },
   "dependencies": {
     "gatsby": "^2.20.12",
+    "gatsby-plugin-typescript": "^2.3.1",
+    "gatsby-plugin-typescript-checker": "^1.1.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
@@ -21,7 +23,8 @@
     "gatsby-cli": "^2.11.5",
     "husky": "^4.2.3",
     "lint-staged": "^10.1.2",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "typescript": "^3.8.3"
   },
   "repository": {
     "type": "git",
