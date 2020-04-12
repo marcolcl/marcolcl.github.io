@@ -5,9 +5,10 @@
   "private": false,
   "scripts": {
     "prebuild": "tsc",
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "start": "gatsby develop",
+    "deploy": "gh-pages -d public -b master --add",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "gatsby-cli": "^2.11.5",
+    "gh-pages": "^2.2.0",
     "husky": "^4.2.3",
     "lint-staged": "^10.1.2",
     "prettier": "^1.19.1",

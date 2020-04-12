@@ -5,5 +5,6 @@
  */
 
 module.exports = {
+  assetPrefix: '/public',
   plugins: ['gatsby-plugin-typescript', 'gatsby-plugin-typescript-checker'],
 };
